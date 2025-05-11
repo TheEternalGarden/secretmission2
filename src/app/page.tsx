@@ -1,4 +1,3 @@
-import Image from "next/image";
 import HamburgerMenu from '@/components/HamburgerMenu';
 
 export default function Home() {
