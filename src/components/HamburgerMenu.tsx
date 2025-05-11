@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Link from 'next/link';
 
 export default function HamburgerMenu() {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,9 +22,9 @@ export default function HamburgerMenu() {
       
       {isOpen && (
         <div className="absolute right-0 mt-2 w-48 bg-white shadow-lg rounded-lg py-2">
-          <a href="#" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">Home</a>
-          <a href="#" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">About</a>
-          <a href="#" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">Contact</a>
+          <Link href="/" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">Home</Link>
+          <Link href="/product" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">Products</Link>
+          <Link href="#" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">Contact</Link>
         </div>
       )}
     </div>
