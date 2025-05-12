@@ -1,4 +1,5 @@
-import HamburgerMenu from '@/components/HamburgerMenu';
+"use client";
+import React from "react";
 
 export default function Product() {
   return (
@@ -24,4 +25,4 @@ export default function Product() {
       </div>
     </main>
   );
-} 
+}
