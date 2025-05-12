@@ -5,7 +5,7 @@ export default function Product() {
     <main className="min-h-screen bg-white">
       <HamburgerMenu />
       <div className="container mx-auto px-4 pt-20">
-        <h1 className="text-4xl font-bold text-black mb-8">YEEZY Products</h1>
+        <h1 className="text-2xl font-bold text-black mb-8">YEEZY Products</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Product cards will go here */}
           <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
